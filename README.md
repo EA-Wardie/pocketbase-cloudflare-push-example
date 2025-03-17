@@ -77,7 +77,7 @@ if (permission === 'granted') {
 }
 ```
 
-%%Although prompting users on site load works fine for Chromium based browsers, it does not on Safari. For Safari this code must be run on user interaction (e.g. tapping a button).%%
+Although prompting users on site load works fine for Chromium based browsers, it does not on Safari. For Safari this code must be run on user interaction (e.g. tapping a button).
 
 ##### Example for a base 64 to unit 8 array helper function
 
@@ -219,4 +219,4 @@ export default {
 } satisfies ExportedHandler<Env>;
 ```
 
-%%The code in these examples are a simple example of sending push notifications and improvements are almost certainly possible.%%
+PS. The code in these examples are a simple example of sending push notifications and improvements are almost certainly possible.
