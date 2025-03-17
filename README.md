@@ -1,4 +1,4 @@
-## PocketBase Vloudflare Push Notifications Example
+## PocketBase Cloudflare Push Notifications Example
 A simple implementation example for push notifications using PocketBase and Cloudflare workers.
 
 #### Prerequisites
