@@ -121,6 +121,9 @@ self.addEventListener('push', (event: PushEvent) => {
 
 The code here is depended on your worker / edge function of choice.
 This example is for **Cloudflare** workers.
+Dont forget to install "@block65/webcrypto-web-push".
+
+`npm i @block65/webcrypto-web-push`
 
 ```JS
 import { buildPushPayload, type PushMessage, type PushSubscription, type VapidKeys } from '@block65/webcrypto-web-push';
